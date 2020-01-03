@@ -37,3 +37,60 @@ a {
 footer {
   padding: 5rem 0;
 }
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-header {
+  text-align: left;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-skills {
+  text-align: left;
+
+  .skills-ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+  }
+}
+
+.about-left {
+  width: 70%;
+}
+
+.about-right {
+  width: 30%;
+  padding-left: 30px;
+}
+
+.about-img {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .about-section {
+    max-width: 1600px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-left, .about-right {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+}
