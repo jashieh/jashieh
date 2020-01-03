@@ -369,3 +369,11 @@ footer {
     margin-bottom: 50px;
   }
 }
+
+.signup-section {
+  padding-bottom: 5rem;
+}
+
+.contact-text {
+  font-size: 20px;
+}
