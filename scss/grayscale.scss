@@ -89,9 +89,21 @@ footer {
   max-width: 80%;
 }
 
+@media(min-width: 992px) {
+  .img-2 {
+    height: 100%;
+    max-height: 405px;
+  }
+}
+
 @media (min-width: 1200px) {
   .about-div {
     max-width: 1600px;
+  }
+
+  .img-2 {
+    height: 100%;
+    max-height: 363px;
   }
 }
 
