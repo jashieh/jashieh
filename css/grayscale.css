@@ -334,6 +334,7 @@ footer {
 
 .about-img {
   width: 100%;
+  max-height: 380px;
 }
 
 .about-div-2 {
