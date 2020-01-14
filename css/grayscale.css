@@ -347,10 +347,6 @@ footer {
   max-width: 80%;
 }
 
-#mainNav {
-  background: transparent;
-}
-
 @media (min-width: 992px) {
   .img-2 {
     height: 100%;
